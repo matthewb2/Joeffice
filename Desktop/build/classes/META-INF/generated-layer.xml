@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <folder name="Office">
+                <file name="org-joeffice-desktop-actions-AlignmentAction.instance">
+                    <!--org.joeffice.desktop.actions.AlignmentAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_Alignement" name="displayName"/>
+                    <attr name="instanceCreate" newvalue="org.joeffice.desktop.actions.AlignmentAction"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-BackgroundColorAction.instance">
+                    <!--org.joeffice.desktop.actions.BackgroundColorAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_BackgroundColorAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.BackgroundColorAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/tag_blue_edit.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-BoldAction.instance">
+                    <!--org.joeffice.desktop.actions.BoldAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_BoldAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.BoldAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_bold.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-CenterAlignAction.instance">
+                    <!--org.joeffice.desktop.actions.CenterAlignAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_CenterAlignAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.CenterAlignAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_align_center.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-ChooseFontAction.instance">
+                    <!--org.joeffice.desktop.actions.ChooseFontAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_ChooseFontAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.ChooseFontAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/font.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-FontSizeAction.instance">
+                    <!--org.joeffice.desktop.actions.FontSizeAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_FontSizeAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.FontSizeAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-FontSizeDecrementAction.instance">
+                    <!--org.joeffice.desktop.actions.FontSizeDecrementAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_FontSizeDecrementAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.FontSizeDecrementAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-FontSizeIncrementAction.instance">
+                    <!--org.joeffice.desktop.actions.FontSizeIncrementAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_FontSizeIncrementAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.FontSizeIncrementAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-ForegroundColorAction.instance">
+                    <!--org.joeffice.desktop.actions.ForegroundColorAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_ForegroundColorAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.ForegroundColorAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/color_swatch.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-IndentationAction.instance">
+                    <!--org.joeffice.desktop.actions.IndentationAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_IndentationAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.IndentationAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-ItalicAction.instance">
+                    <!--org.joeffice.desktop.actions.ItalicAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_ItalicAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.ItalicAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_italic.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-JustifyAlignAction.instance">
+                    <!--org.joeffice.desktop.actions.JustifyAlignAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_JustifyAlignAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.JustifyAlignAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_align_justify.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-LeftAlignAction.instance">
+                    <!--org.joeffice.desktop.actions.LeftAlignAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_LeftAlignAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.LeftAlignAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_align_left.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-PlainStyleAction.instance">
+                    <!--org.joeffice.desktop.actions.PlainStyleAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_PlainStyleAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.PlainStyleAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-RightAlignAction.instance">
+                    <!--org.joeffice.desktop.actions.RightAlignAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_RightAlignAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.RightAlignAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_align_right.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-StrikeThroughAction.instance">
+                    <!--org.joeffice.desktop.actions.StrikeThroughAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_StrikeThroughAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.StrikeThroughAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_strikethrough.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-SubscriptAction.instance">
+                    <!--org.joeffice.desktop.actions.SubscriptAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_SubscriptAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.SubscriptAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_subscript.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-SuperscriptAction.instance">
+                    <!--org.joeffice.desktop.actions.SuperscriptAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_SuperscriptAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.SuperscriptAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_superscript.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-ToLowerCaseAction.instance">
+                    <!--org.joeffice.desktop.actions.ToLowerCaseAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_ToLowerCaseAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.ToLowerCaseAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_lowercase.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-ToUpperCaseAction.instance">
+                    <!--org.joeffice.desktop.actions.ToUpperCaseAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_ToUpperCaseAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.ToUpperCaseAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_uppercase.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-UnderlineAction.instance">
+                    <!--org.joeffice.desktop.actions.UnderlineAction-->
+                    <attr
+                        bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_UnderlineAction" name="displayName"/>
+                    <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                    <attr name="type" stringvalue="org.joeffice.desktop.ui.Styleable"/>
+                    <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                    <attr name="injectable" stringvalue="org.joeffice.desktop.actions.UnderlineAction"/>
+                    <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                    <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/text_underline.png"/>
+                    <attr boolvalue="false" name="noIconInMenu"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="File">
+            <file name="org-joeffice-desktop-actions-NewFileAction.instance">
+                <!--org.joeffice.desktop.actions.NewFileAction-->
+                <attr
+                    bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_NewFileAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.joeffice.desktop.actions.NewFileAction"/>
+                <attr name="iconBase" stringvalue="org/joeffice/desktop/actions/add.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-OpenInSystemAction.instance">
+                <!--org.joeffice.desktop.actions.OpenInSystemAction-->
+                <attr
+                    bundlevalue="org.joeffice.desktop.actions.Bundle#CTL_OpenInSystemAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.openide.loaders.DataObject"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.joeffice.desktop.actions.OpenInSystemAction"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-joeffice-desktop-WelcomeTopComponent.instance">
+                <!--org.joeffice.desktop.WelcomeTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.joeffice.desktop.WelcomeTopComponent"/>
+                <attr name="preferredID" stringvalue="WelcomeTopComponent"/>
+                <attr
+                    bundlevalue="org.joeffice.desktop.Bundle#CTL_WelcomeAction" name="displayName"/>
+            </file>
+            <file name="org-joeffice-desktop-ui-FontListTopComponent.instance">
+                <!--org.joeffice.desktop.ui.FontListTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.joeffice.desktop.ui.FontListTopComponent"/>
+                <attr name="preferredID" stringvalue="FontListTopComponent"/>
+                <attr
+                    bundlevalue="org.joeffice.desktop.ui.Bundle#CTL_FontListAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Font">
+            <file name="org-joeffice-desktop-actions-AlignmentAction.shadow">
+                <!--org.joeffice.desktop.actions.AlignmentAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-AlignmentAction.instance"/>
+                <attr intvalue="3500" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-BoldAction.shadow">
+                <!--org.joeffice.desktop.actions.BoldAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-BoldAction.instance"/>
+                <attr intvalue="3100" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-ChooseFontAction.shadow">
+                <!--org.joeffice.desktop.actions.ChooseFontAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ChooseFontAction.instance"/>
+                <attr intvalue="3000" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-ForegroundColorAction.shadow">
+                <!--org.joeffice.desktop.actions.ForegroundColorAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ForegroundColorAction.instance"/>
+                <attr intvalue="3300" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-ItalicAction.shadow">
+                <!--org.joeffice.desktop.actions.ItalicAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ItalicAction.instance"/>
+                <attr intvalue="3200" name="position"/>
+            </file>
+        </folder>
+        <folder name="File">
+            <file name="org-joeffice-desktop-actions-NewFileAction.shadow">
+                <!--org.joeffice.desktop.actions.NewFileAction-->
+                <attr name="originalFile" stringvalue="Actions/File/org-joeffice-desktop-actions-NewFileAction.instance"/>
+                <attr intvalue="90" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <file name="org-joeffice-desktop-actions-BackgroundColorAction.shadow">
+                <!--org.joeffice.desktop.actions.BackgroundColorAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-BackgroundColorAction.instance"/>
+                <attr intvalue="1560" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-BoldAction.shadow">
+                <!--org.joeffice.desktop.actions.BoldAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-BoldAction.instance"/>
+                <attr intvalue="1520" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-ChooseFontAction.shadow">
+                <!--org.joeffice.desktop.actions.ChooseFontAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ChooseFontAction.instance"/>
+                <attr intvalue="1510" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-FontSizeAction.shadow">
+                <!--org.joeffice.desktop.actions.FontSizeAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-FontSizeAction.instance"/>
+                <attr intvalue="1515" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-ForegroundColorAction.shadow">
+                <!--org.joeffice.desktop.actions.ForegroundColorAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ForegroundColorAction.instance"/>
+                <attr intvalue="1550" name="position"/>
+            </file>
+            <folder name="Gimme More">
+                <folder name="Text">
+                    <file name="org-joeffice-desktop-actions-IndentationAction.shadow">
+                        <!--org.joeffice.desktop.actions.IndentationAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-IndentationAction.instance"/>
+                        <attr intvalue="60" name="position"/>
+                    </file>
+                    <file name="org-joeffice-desktop-actions-StrikeThroughAction.shadow">
+                        <!--org.joeffice.desktop.actions.StrikeThroughAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-StrikeThroughAction.instance"/>
+                        <attr intvalue="30" name="position"/>
+                    </file>
+                    <file name="org-joeffice-desktop-actions-SubscriptAction.shadow">
+                        <!--org.joeffice.desktop.actions.SubscriptAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-SubscriptAction.instance"/>
+                        <attr intvalue="10" name="position"/>
+                    </file>
+                    <file name="org-joeffice-desktop-actions-SuperscriptAction.shadow">
+                        <!--org.joeffice.desktop.actions.SuperscriptAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-SuperscriptAction.instance"/>
+                        <attr intvalue="20" name="position"/>
+                    </file>
+                    <file name="org-joeffice-desktop-actions-ToLowerCaseAction.shadow">
+                        <!--org.joeffice.desktop.actions.ToLowerCaseAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ToLowerCaseAction.instance"/>
+                        <attr intvalue="40" name="position"/>
+                    </file>
+                    <file name="org-joeffice-desktop-actions-ToUpperCaseAction.shadow">
+                        <!--org.joeffice.desktop.actions.ToUpperCaseAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ToUpperCaseAction.instance"/>
+                        <attr intvalue="50" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+            <file name="org-joeffice-desktop-actions-ItalicAction.shadow">
+                <!--org.joeffice.desktop.actions.ItalicAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ItalicAction.instance"/>
+                <attr intvalue="1530" name="position"/>
+            </file>
+            <file name="org-joeffice-desktop-actions-UnderlineAction.shadow">
+                <!--org.joeffice.desktop.actions.UnderlineAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-UnderlineAction.instance"/>
+                <attr intvalue="1540" name="position"/>
+            </file>
+        </folder>
+        <folder name="File">
+            <file name="org-joeffice-desktop-actions-NewFileAction.shadow">
+                <!--org.joeffice.desktop.actions.NewFileAction-->
+                <attr name="originalFile" stringvalue="Actions/File/org-joeffice-desktop-actions-NewFileAction.instance"/>
+                <attr intvalue="90" name="position"/>
+            </file>
+        </folder>
+        <folder name="Help">
+            <file name="org-joeffice-desktop-WelcomeTopComponent.shadow">
+                <!--org.joeffice.desktop.WelcomeTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-joeffice-desktop-WelcomeTopComponent.instance"/>
+                <attr intvalue="350" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="D-B.shadow">
+            <!--org.joeffice.desktop.actions.BoldAction-->
+            <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-BoldAction.instance"/>
+        </file>
+        <file name="D-I.shadow">
+            <!--org.joeffice.desktop.actions.ItalicAction-->
+            <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-ItalicAction.instance"/>
+        </file>
+        <file name="D-N.shadow">
+            <!--org.joeffice.desktop.actions.NewFileAction-->
+            <attr name="originalFile" stringvalue="Actions/File/org-joeffice-desktop-actions-NewFileAction.instance"/>
+        </file>
+        <file name="D-Space.shadow">
+            <!--org.joeffice.desktop.actions.PlainStyleAction-->
+            <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-PlainStyleAction.instance"/>
+        </file>
+        <file name="D-U.shadow">
+            <!--org.joeffice.desktop.actions.UnderlineAction-->
+            <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-UnderlineAction.instance"/>
+        </file>
+    </folder>
+    <folder name="Office">
+        <folder name="Desktop">
+            <folder name="Alignment">
+                <file name="org-joeffice-desktop-actions-CenterAlignAction.shadow">
+                    <!--org.joeffice.desktop.actions.CenterAlignAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-CenterAlignAction.instance"/>
+                    <attr intvalue="200" name="position"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-JustifyAlignAction.shadow">
+                    <!--org.joeffice.desktop.actions.JustifyAlignAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-JustifyAlignAction.instance"/>
+                    <attr intvalue="400" name="position"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-LeftAlignAction.shadow">
+                    <!--org.joeffice.desktop.actions.LeftAlignAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-LeftAlignAction.instance"/>
+                    <attr intvalue="100" name="position"/>
+                </file>
+                <file name="org-joeffice-desktop-actions-RightAlignAction.shadow">
+                    <!--org.joeffice.desktop.actions.RightAlignAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/org-joeffice-desktop-actions-RightAlignAction.instance"/>
+                    <attr intvalue="300" name="position"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="content">
+            <folder name="unknown">
+                <folder name="Actions">
+                    <file name="org-joeffice-desktop-actions-OpenInSystemAction.shadow">
+                        <!--org.joeffice.desktop.actions.OpenInSystemAction-->
+                        <attr name="originalFile" stringvalue="Actions/File/org-joeffice-desktop-actions-OpenInSystemAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="JavaHelp">
+            <file name="org-joeffice-desktop-docs.xml">
+                <!--org.joeffice.desktop.docs-->
+                <attr intvalue="3838" name="position"/><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE helpsetref PUBLIC "-//NetBeans//DTD JavaHelp Help Set Reference 1.0//EN" "http://www.netbeans.org/dtds/helpsetref-1_0.dtd">
+<helpsetref url="nbdocs:/org/joeffice/desktop/docs/desktop-hs.xml" merge="true"/>
+]]></file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="WelcomeTopComponent.settings">
+                <!--org.joeffice.desktop.WelcomeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.joeffice.desktop.WelcomeTopComponent"/>
+</settings>
+]]></file>
+            <file name="FontListTopComponent.settings">
+                <!--org.joeffice.desktop.ui.FontListTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.joeffice.desktop.ui.FontListTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="WelcomeTopComponent.wstcref">
+                    <!--org.joeffice.desktop.WelcomeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="WelcomeTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="palette">
+                <file name="FontListTopComponent.wstcref">
+                    <!--org.joeffice.desktop.ui.FontListTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="FontListTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="OptionsDialog">
+        <folder name="Advanced">
+            <file name="org-joeffice-desktop-AppearanceOptionsPanelController.instance">
+                <!--org.joeffice.desktop.AppearanceOptionsPanelController-->
+                <attr
+                    methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory" name="instanceCreate"/>
+                <attr name="controller" newvalue="org.joeffice.desktop.AppearanceOptionsPanelController"/>
+                <attr
+                    bundlevalue="org.joeffice.desktop.Bundle#AdvancedOption_DisplayName_Appearance" name="displayName"/>
+                <attr
+                    bundlevalue="org.joeffice.desktop.Bundle#AdvancedOption_Keywords_Appearance" name="keywords"/>
+                <attr name="keywordsCategory" stringvalue="Advanced/Appearance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_joeffice_desktop">
+                <file name="Welcome" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.joeffice.desktop.WelcomeTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.joeffice.desktop//Welcome//EN"/>
+                </file>
+            </folder>
+            <folder name="org_joeffice_desktop_ui">
+                <file name="FontList" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.joeffice.desktop.ui.FontListTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.joeffice.desktop.ui//FontList//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="joeffice">
+                    <folder name="desktop">
+                        <file name="WelcomeTopComponent">
+                            <!--org.joeffice.desktop.WelcomeTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_joeffice_desktop/Welcome.instance"/>
+                        </file>
+                        <folder name="ui">
+                            <file name="FontListTopComponent">
+                                <!--org.joeffice.desktop.ui.FontListTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_joeffice_desktop_ui/FontList.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_joeffice_desktop">
+                <file name="Welcome.instance">
+                    <!--org.joeffice.desktop.WelcomeTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.joeffice.desktop.WelcomeTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.joeffice.desktop.WelcomeTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="org_joeffice_desktop_ui">
+                <file name="FontList.instance">
+                    <!--org.joeffice.desktop.ui.FontListTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.joeffice.desktop.ui.FontListTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.joeffice.desktop.ui.FontListTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

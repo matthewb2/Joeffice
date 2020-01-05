@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.joeffice.swingx">
+    <module_version install_time="1578061458649" last="true" origin="installer" specification_version="1.0">
+        <file crc="1225629970" name="config/Modules/org-joeffice-swingx.xml"/>
+        <file crc="588584937" name="modules/ext/org.jdesktop.swingx.scrollpaneselector.jar"/>
+        <file crc="1103611034" name="modules/ext/swingx-all-1.6.5.jar"/>
+        <file crc="2547320076" name="modules/org-joeffice-swingx.jar"/>
+    </module_version>
+</module>

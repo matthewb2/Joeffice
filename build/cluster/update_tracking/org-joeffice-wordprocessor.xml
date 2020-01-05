@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.joeffice.wordprocessor">
+    <module_version install_time="1578061723461" last="true" origin="installer" specification_version="1.0">
+        <file crc="3251834889" name="config/Modules/org-joeffice-wordprocessor.xml"/>
+        <file crc="940484397" name="modules/org-joeffice-wordprocessor.jar"/>
+    </module_version>
+</module>

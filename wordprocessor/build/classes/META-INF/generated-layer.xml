@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <folder name="Office">
+                <folder name="Word Processor">
+                    <file name="org-joeffice-wordprocessor-actions-AddPictureAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.AddPictureAction-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_AddPictureAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.wordprocessor.actions.AddPictureAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/wordprocessor/actions/picture_add.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-copyAsText.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.copyAsText()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_CopyAsText" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.copyAsText" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-pasteAsText.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.pasteAsText()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_PasteAsText" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.pasteAsText" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-insertImageAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertImageAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_InsertImageAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertImageAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-paragraphAttributesAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.paragraphAttributesAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_ParagraphAttributesAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.paragraphAttributesAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-MarginsAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.setMarginsAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_MarginsAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.setMarginsAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-insertTableAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertTableAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_InsertTableAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertTableAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-insertRowBelowAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertRowBelowAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_InsertRowBelowAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertRowBelowAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-insertRowAboveAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertRowAboveAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_InsertRowAboveAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertRowAboveAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-insertColumnToTheRightAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertColumnToTheRightAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_InsertColumnToTheRightAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertColumnToTheRightAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-insertColumnToTheLeftAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertColumnToTheLeftAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_InsertColumnToTheLeftAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertColumnToTheLeftAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-deleteTableAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteTableAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_DeleteTableAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteTableAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-deleteRowAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteRowAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_DeleteRowAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteRowAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-deleteColumnAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteColumnAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_DeleteColumnAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteColumnAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-tablePropertiesAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.tablePropertiesAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_TablePropertiesAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.tablePropertiesAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-rowPropertiesAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.rowPropertiesAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_RowPropertiesAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.rowPropertiesAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-cellPropertiesAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.cellPropertiesAction()-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_CellPropertiesAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.wordprocessor.actions.SimpleActionsFactory.cellPropertiesAction" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-TableAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.TableAction-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_TableAction" name="displayName"/>
+                        <attr name="instanceCreate" newvalue="org.joeffice.wordprocessor.actions.TableAction"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="View">
+            <folder name="Office">
+                <folder name="Word Processor">
+                    <file name="org-joeffice-wordprocessor-actions-ShowNonPrintableCharactersAction.instance">
+                        <!--org.joeffice.wordprocessor.actions.ShowNonPrintableCharactersAction-->
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.actions.Bundle#CTL_ShowNonPrintableCharactersAction" name="displayName"/>
+                        <attr name="instanceCreate" newvalue="org.joeffice.wordprocessor.actions.ShowNonPrintableCharactersAction"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="Window">
+            <file name="org-joeffice-wordprocessor-DocumentTreeTopComponent.instance">
+                <!--org.joeffice.wordprocessor.DocumentTreeTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.joeffice.wordprocessor.DocumentTreeTopComponent"/>
+                <attr name="preferredID" stringvalue="DocumentTreeTopComponent"/>
+                <attr
+                    bundlevalue="org.joeffice.wordprocessor.Bundle#CTL_DocumentTreeAction" name="displayName"/>
+            </file>
+            <file name="org-joeffice-wordprocessor-WordProcessorTopComponent.instance">
+                <!--org.joeffice.wordprocessor.WordProcessorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.joeffice.wordprocessor.WordProcessorTopComponent"/>
+                <attr name="preferredID" stringvalue="WordProcessorTopComponent"/>
+                <attr
+                    bundlevalue="org.joeffice.wordprocessor.Bundle#CTL_WordProcessorAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/joeffice/wordprocessor/wordprocessor-16.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Office">
+        <folder name="Word Processor">
+            <folder name="Toolbar">
+                <file name="org-joeffice-wordprocessor-actions-AddPictureAction.shadow">
+                    <!--org.joeffice.wordprocessor.actions.AddPictureAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-AddPictureAction.instance"/>
+                    <attr intvalue="200" name="position"/>
+                </file>
+                <file name="org-joeffice-wordprocessor-actions-ShowNonPrintableCharactersAction.shadow">
+                    <!--org.joeffice.wordprocessor.actions.ShowNonPrintableCharactersAction-->
+                    <attr name="originalFile" stringvalue="Actions/View/Office/Word Processor/org-joeffice-wordprocessor-actions-ShowNonPrintableCharactersAction.instance"/>
+                    <attr intvalue="300" name="position"/>
+                </file>
+                <file name="org-joeffice-wordprocessor-actions-TableAction.shadow">
+                    <!--org.joeffice.wordprocessor.actions.TableAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-TableAction.instance"/>
+                    <attr intvalue="400" name="position"/>
+                </file>
+                <file name="org-joeffice-wordprocessor-actions-TableAction-separatorBefore.instance">
+                    <!--org.joeffice.wordprocessor.actions.TableAction-->
+                    <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                    <attr intvalue="390" name="position"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <folder name="Gimme More">
+                <folder name="Word Processor">
+                    <file name="org-joeffice-wordprocessor-actions-ShowNonPrintableCharactersAction.shadow">
+                        <!--org.joeffice.wordprocessor.actions.ShowNonPrintableCharactersAction-->
+                        <attr name="originalFile" stringvalue="Actions/View/Office/Word Processor/org-joeffice-wordprocessor-actions-ShowNonPrintableCharactersAction.instance"/>
+                        <attr intvalue="800" name="position"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-copyAsText.shadow">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.copyAsText()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-copyAsText.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-pasteAsText.shadow">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.pasteAsText()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-pasteAsText.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-insertImageAction.shadow">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertImageAction()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-insertImageAction.instance"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-paragraphAttributesAction.shadow">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.paragraphAttributesAction()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-paragraphAttributesAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                    <file name="org-joeffice-wordprocessor-actions-MarginsAction.shadow">
+                        <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.setMarginsAction()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-MarginsAction.instance"/>
+                        <attr intvalue="1800" name="position"/>
+                    </file>
+                    <folder name="Table">
+                        <file name="org-joeffice-wordprocessor-actions-insertTableAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertTableAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-insertTableAction.instance"/>
+                            <attr intvalue="1000" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-insertRowBelowAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertRowBelowAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-insertRowBelowAction.instance"/>
+                            <attr intvalue="1200" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-insertRowAboveAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertRowAboveAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-insertRowAboveAction.instance"/>
+                            <attr intvalue="1300" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-insertColumnToTheRightAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertColumnToTheRightAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-insertColumnToTheRightAction.instance"/>
+                            <attr intvalue="1400" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-insertColumnToTheLeftAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.insertColumnToTheLeftAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-insertColumnToTheLeftAction.instance"/>
+                            <attr intvalue="1500" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-deleteTableAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteTableAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-deleteTableAction.instance"/>
+                            <attr intvalue="2000" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-deleteTableAction-separatorBefore.instance">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteTableAction()-->
+                            <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                            <attr intvalue="1990" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-deleteRowAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteRowAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-deleteRowAction.instance"/>
+                            <attr intvalue="2100" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-deleteColumnAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.deleteColumnAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-deleteColumnAction.instance"/>
+                            <attr intvalue="2200" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-tablePropertiesAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.tablePropertiesAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-tablePropertiesAction.instance"/>
+                            <attr intvalue="2500" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-tablePropertiesAction-separatorBefore.instance">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.tablePropertiesAction()-->
+                            <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                            <attr intvalue="2490" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-rowPropertiesAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.rowPropertiesAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-rowPropertiesAction.instance"/>
+                            <attr intvalue="2600" name="position"/>
+                        </file>
+                        <file name="org-joeffice-wordprocessor-actions-cellPropertiesAction.shadow">
+                            <!--org.joeffice.wordprocessor.actions.SimpleActionsFactory.cellPropertiesAction()-->
+                            <attr name="originalFile" stringvalue="Actions/Edit/Office/Word Processor/org-joeffice-wordprocessor-actions-cellPropertiesAction.instance"/>
+                            <attr intvalue="2700" name="position"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="application">
+            <folder name="vnd.openxmlformats-officedocument.wordprocessingml.document">
+                <folder name="Actions">
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-netbeans-core-ui-sysopen-SystemOpenAction.instance"/>
+                        <attr intvalue="150" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction-separatorAfter.instance">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr intvalue="300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction-separatorAfter.instance">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="500" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction-separatorAfter.instance">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="800" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction-separatorAfter.instance">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr intvalue="1100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction-separatorAfter.instance">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr intvalue="1300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr intvalue="1400" name="position"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="org-joeffice-wordprocessor-DocxDataObject.instance">
+                        <!--org.joeffice.wordprocessor.DocxDataObject-->
+                        <attr name="iconBase" stringvalue="org/joeffice/wordprocessor/wordprocessor-16.png"/>
+                        <attr intvalue="110" name="position"/>
+                        <attr
+                            bundlevalue="org.joeffice.wordprocessor.Bundle#LBL_Docx_LOADER" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.loaders.DataLoaderPool.factory" name="instanceCreate"/>
+                        <attr name="dataObjectClass" stringvalue="org.joeffice.wordprocessor.DocxDataObject"/>
+                        <attr name="mimeType" stringvalue="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="org-joeffice-wordprocessor-DocxDataObject-Extension.xml">
+                <!--org.joeffice.wordprocessor.DocxDataObject-->
+                <attr
+                    methodvalue="org.openide.filesystems.MIMEResolver.create" name="instanceCreate"/>
+                <attr name="instanceClass" stringvalue="org.openide.filesystems.MIMEResolver"/>
+                <attr name="mimeType" stringvalue="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                <attr name="ext.0" stringvalue="docx"/>
+                <attr name="ext.1" stringvalue="DOCX"/>
+                <attr intvalue="110" name="position"/>
+                <attr
+                    bundlevalue="org.joeffice.wordprocessor.Bundle#LBL_Docx_LOADER" name="fileChooser.0"/>
+                <attr
+                    bundlevalue="org.joeffice.wordprocessor.Bundle#LBL_Docx_LOADER" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="DocumentTreeTopComponent.settings">
+                <!--org.joeffice.wordprocessor.DocumentTreeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.joeffice.wordprocessor.DocumentTreeTopComponent"/>
+</settings>
+]]></file>
+            <file name="WordProcessorTopComponent.settings">
+                <!--org.joeffice.wordprocessor.WordProcessorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.joeffice.wordprocessor.WordProcessorTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="rightSlidingSide">
+                <file name="DocumentTreeTopComponent.wstcref">
+                    <!--org.joeffice.wordprocessor.DocumentTreeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="DocumentTreeTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="editor">
+                <file name="WordProcessorTopComponent.wstcref">
+                    <!--org.joeffice.wordprocessor.WordProcessorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="WordProcessorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Office">
+            <file name="DocxTemplate.docx" url="nbresloc:/org/joeffice/wordprocessor/DocxTemplate.docx">
+                <!--org.joeffice.wordprocessor-->
+                <attr boolvalue="true" name="template"/>
+                <attr intvalue="100" name="position"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_joeffice_wordprocessor">
+                <file name="DocumentTree" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.joeffice.wordprocessor.DocumentTreeTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.joeffice.wordprocessor//DocumentTree//EN"/>
+                </file>
+                <file name="WordProcessor" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.joeffice.wordprocessor.WordProcessorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.joeffice.wordprocessor//WordProcessor//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="joeffice">
+                    <folder name="wordprocessor">
+                        <file name="DocumentTreeTopComponent">
+                            <!--org.joeffice.wordprocessor.DocumentTreeTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_joeffice_wordprocessor/DocumentTree.instance"/>
+                        </file>
+                        <file name="WordProcessorTopComponent">
+                            <!--org.joeffice.wordprocessor.WordProcessorTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_joeffice_wordprocessor/WordProcessor.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_joeffice_wordprocessor">
+                <file name="DocumentTree.instance">
+                    <!--org.joeffice.wordprocessor.DocumentTreeTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.joeffice.wordprocessor.DocumentTreeTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.joeffice.wordprocessor.DocumentTreeTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="WordProcessor.instance">
+                    <!--org.joeffice.wordprocessor.WordProcessorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.joeffice.wordprocessor.WordProcessorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.joeffice.wordprocessor.WordProcessorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

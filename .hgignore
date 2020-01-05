@@ -1,0 +1,9 @@
+\.orig$
+\.orig\..*$
+\.chg\..*$
+\.rej$
+\.conflict\~$
+^admin$
+^test$
+^tools/build-applet\.xml$
+^tools/src/org/joeffice/applet$

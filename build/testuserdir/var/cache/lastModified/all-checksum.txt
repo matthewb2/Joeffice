@@ -1,0 +1,8 @@
+C:\Program Files\NetBeans 7.4\platform=1578045495687
+cluster.D:/agoubard-joeffice-ab0754982535/build/cluster=1578061724737
+cluster.C:/Program Files/NetBeans 7.4/ide=1578045495691
+cluster.C:/Program Files/NetBeans 7.4/platform=1578045495687
+user=1578061724737
+crc=439
+locale=ko_KR
+branding=joeffice

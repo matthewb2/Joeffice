@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.joeffice.desktop">
+    <module_version install_time="1578061459579" last="true" origin="installer" specification_version="1.0">
+        <file crc="1589543793" name="config/Modules/org-joeffice-desktop.xml"/>
+        <file crc="120276451" name="modules/org-joeffice-desktop.jar"/>
+    </module_version>
+</module>

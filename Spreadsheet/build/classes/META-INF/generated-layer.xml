@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <folder name="Office">
+                <folder name="Spreadsheet">
+                    <file name="org-joeffice-spreadsheet-actions-ColumnFitWidthAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.ColumnFitWidthAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_ColumnFitWidthAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.ColumnFitWidthAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/table_go.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-CompleteSequenceAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.CompleteSequenceAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_CompleteSequenceAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.CompleteSequenceAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/application_go.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-DeleteCellsAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.DeleteCellsAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_DeleteCellsAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.DeleteCellsAction"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-FormatActionDropDown.instance">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionDropDown-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_FormatActionDropDown" name="displayName"/>
+                        <attr name="instanceCreate" newvalue="org.joeffice.spreadsheet.actions.FormatActionDropDown"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-moneyFormat.instance">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.moneyFormat()-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_moneyFormat" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.spreadsheet.actions.FormatActionFactory.moneyFormat" name="delegate"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/money.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-percentageFormat.instance">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.percentageFormat()-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_percentageFormat" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.spreadsheet.actions.FormatActionFactory.percentageFormat" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-dateFormat.instance">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.dateFormat()-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_dateFormat" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.spreadsheet.actions.FormatActionFactory.dateFormat" name="delegate"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/date.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-numberFormat.instance">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.numberFormat()-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_numberFormat" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.spreadsheet.actions.FormatActionFactory.numberFormat" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-chooseFormat.instance">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.chooseFormat()-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_chooseFormat" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.spreadsheet.actions.FormatActionFactory.chooseFormat" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-defineFormat.instance">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.defineFormat()-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_defineFormat" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr
+                            methodvalue="org.joeffice.spreadsheet.actions.FormatActionFactory.defineFormat" name="delegate"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-InsertColumnAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.InsertColumnAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_InsertColumnAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.InsertColumnAction"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-InsertRowsAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.InsertRowsAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_InsertRowsAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.InsertRowsAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/table_row_insert.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-InsertSheetAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.InsertSheetAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_InsertSheetAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.InsertSheetAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/table_add.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RemoveColumnAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.RemoveColumnAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_RemoveColumnAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.RemoveColumnAction"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RemoveRowsAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.RemoveRowsAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_RemoveRowsAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.RemoveRowsAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/table_delete.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RemoveSheetAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.RemoveSheetAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_RemoveSheetAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.RemoveSheetAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/table_delete.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RenameSheetAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.RenameSheetAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_RenameSheetAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.RenameSheetAction"/>
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/actions/textfield_rename.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-SetBordersAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.SetBordersAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_SetBordersAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.joeffice.spreadsheet.actions.SetBordersAction"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="View">
+            <folder name="Office">
+                <folder name="Spreadsheet">
+                    <file name="org-joeffice-spreadsheet-actions-ShowHideGridAction.instance">
+                        <!--org.joeffice.spreadsheet.actions.ShowHideGridAction-->
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.actions.Bundle#CTL_ShowHideGridAction" name="displayName"/>
+                        <attr name="instanceCreate" newvalue="org.joeffice.spreadsheet.actions.ShowHideGridAction"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="Window">
+            <file name="org-joeffice-spreadsheet-SpreadsheetTopComponent.instance">
+                <!--org.joeffice.spreadsheet.SpreadsheetTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.joeffice.spreadsheet.SpreadsheetTopComponent"/>
+                <attr name="preferredID" stringvalue="SpreadsheetTopComponent"/>
+                <attr
+                    bundlevalue="org.joeffice.spreadsheet.Bundle#CTL_SpreadsheetAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/spreadsheet-16.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <folder name="Gimme More">
+                <folder name="Spreadsheet">
+                    <file name="org-joeffice-spreadsheet-actions-ColumnFitWidthAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.ColumnFitWidthAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-ColumnFitWidthAction.instance"/>
+                        <attr intvalue="1300" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-CompleteSequenceAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.CompleteSequenceAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-CompleteSequenceAction.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-moneyFormat.shadow">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.moneyFormat()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-moneyFormat.instance"/>
+                        <attr intvalue="810" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-percentageFormat.shadow">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.percentageFormat()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-percentageFormat.instance"/>
+                        <attr intvalue="820" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-dateFormat.shadow">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.dateFormat()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-dateFormat.instance"/>
+                        <attr intvalue="830" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-numberFormat.shadow">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.numberFormat()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-numberFormat.instance"/>
+                        <attr intvalue="840" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-chooseFormat.shadow">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.chooseFormat()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-chooseFormat.instance"/>
+                        <attr intvalue="850" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-defineFormat.shadow">
+                        <!--org.joeffice.spreadsheet.actions.FormatActionFactory.defineFormat()-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-defineFormat.instance"/>
+                        <attr intvalue="860" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-InsertColumnAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.InsertColumnAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-InsertColumnAction.instance"/>
+                        <attr intvalue="300" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-InsertSheetAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.InsertSheetAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-InsertSheetAction.instance"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RemoveColumnAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.RemoveColumnAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-RemoveColumnAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-SetBordersAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.SetBordersAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-SetBordersAction.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Office">
+        <folder name="Spreadsheet">
+            <folder name="Toolbar">
+                <file name="org-joeffice-spreadsheet-actions-CompleteSequenceAction.shadow">
+                    <!--org.joeffice.spreadsheet.actions.CompleteSequenceAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-CompleteSequenceAction.instance"/>
+                    <attr intvalue="700" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-FormatActionDropDown.shadow">
+                    <!--org.joeffice.spreadsheet.actions.FormatActionDropDown-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-FormatActionDropDown.instance"/>
+                    <attr intvalue="800" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-InsertRowsAction.shadow">
+                    <!--org.joeffice.spreadsheet.actions.InsertRowsAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-InsertRowsAction.instance"/>
+                    <attr intvalue="100" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-InsertSheetAction.shadow">
+                    <!--org.joeffice.spreadsheet.actions.InsertSheetAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-InsertSheetAction.instance"/>
+                    <attr intvalue="500" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-RemoveRowsAction.shadow">
+                    <!--org.joeffice.spreadsheet.actions.RemoveRowsAction-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-RemoveRowsAction.instance"/>
+                    <attr intvalue="200" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-ShowHideGridAction.shadow">
+                    <!--org.joeffice.spreadsheet.actions.ShowHideGridAction-->
+                    <attr name="originalFile" stringvalue="Actions/View/Office/Spreadsheet/org-joeffice-spreadsheet-actions-ShowHideGridAction.instance"/>
+                    <attr intvalue="600" name="position"/>
+                </file>
+            </folder>
+            <folder name="Format">
+                <file name="org-joeffice-spreadsheet-actions-moneyFormat.shadow">
+                    <!--org.joeffice.spreadsheet.actions.FormatActionFactory.moneyFormat()-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-moneyFormat.instance"/>
+                    <attr intvalue="810" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-percentageFormat.shadow">
+                    <!--org.joeffice.spreadsheet.actions.FormatActionFactory.percentageFormat()-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-percentageFormat.instance"/>
+                    <attr intvalue="820" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-dateFormat.shadow">
+                    <!--org.joeffice.spreadsheet.actions.FormatActionFactory.dateFormat()-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-dateFormat.instance"/>
+                    <attr intvalue="830" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-numberFormat.shadow">
+                    <!--org.joeffice.spreadsheet.actions.FormatActionFactory.numberFormat()-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-numberFormat.instance"/>
+                    <attr intvalue="840" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-chooseFormat.shadow">
+                    <!--org.joeffice.spreadsheet.actions.FormatActionFactory.chooseFormat()-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-chooseFormat.instance"/>
+                    <attr intvalue="850" name="position"/>
+                </file>
+                <file name="org-joeffice-spreadsheet-actions-defineFormat.shadow">
+                    <!--org.joeffice.spreadsheet.actions.FormatActionFactory.defineFormat()-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-defineFormat.instance"/>
+                    <attr intvalue="860" name="position"/>
+                </file>
+            </folder>
+            <folder name="Rows">
+                <folder name="Popup">
+                    <file name="org-joeffice-spreadsheet-actions-InsertRowsAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.InsertRowsAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-InsertRowsAction.instance"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RemoveRowsAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.RemoveRowsAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-RemoveRowsAction.instance"/>
+                    </file>
+                </folder>
+            </folder>
+            <folder name="Tabs">
+                <folder name="Popup">
+                    <file name="org-joeffice-spreadsheet-actions-InsertSheetAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.InsertSheetAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-InsertSheetAction.instance"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RemoveSheetAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.RemoveSheetAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-RemoveSheetAction.instance"/>
+                    </file>
+                    <file name="org-joeffice-spreadsheet-actions-RenameSheetAction.shadow">
+                        <!--org.joeffice.spreadsheet.actions.RenameSheetAction-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/Office/Spreadsheet/org-joeffice-spreadsheet-actions-RenameSheetAction.instance"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="application">
+            <folder name="vnd.ms-excel">
+                <folder name="Actions">
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-netbeans-core-ui-sysopen-SystemOpenAction.instance"/>
+                        <attr intvalue="150" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr intvalue="300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="500" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="800" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr intvalue="1100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr intvalue="1300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr intvalue="1400" name="position"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="org-joeffice-spreadsheet-XlsDataObject.instance">
+                        <!--org.joeffice.spreadsheet.XlsDataObject-->
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/spreadsheet-16.png"/>
+                        <attr intvalue="130" name="position"/>
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.Bundle#LBL_Xls_LOADER" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.loaders.DataLoaderPool.factory" name="instanceCreate"/>
+                        <attr name="dataObjectClass" stringvalue="org.joeffice.spreadsheet.XlsDataObject"/>
+                        <attr name="mimeType" stringvalue="application/vnd.ms-excel"/>
+                    </file>
+                </folder>
+            </folder>
+            <folder name="vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+                <folder name="Actions">
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-netbeans-core-ui-sysopen-SystemOpenAction.instance"/>
+                        <attr intvalue="150" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr intvalue="300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="500" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="800" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr intvalue="1100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr intvalue="1300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr intvalue="1400" name="position"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="org-joeffice-spreadsheet-XlsxDataObject.instance">
+                        <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/spreadsheet-16.png"/>
+                        <attr intvalue="120" name="position"/>
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.Bundle#LBL_Xlsx_LOADER" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.loaders.DataLoaderPool.factory" name="instanceCreate"/>
+                        <attr name="dataObjectClass" stringvalue="org.joeffice.spreadsheet.XlsxDataObject"/>
+                        <attr name="mimeType" stringvalue="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="text">
+            <folder name="csv">
+                <folder name="Actions">
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-netbeans-core-ui-sysopen-SystemOpenAction.instance"/>
+                        <attr intvalue="150" name="position"/>
+                    </file>
+                    <file name="org-netbeans-core-ui-sysopen-SystemOpenAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr intvalue="300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="500" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="800" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr intvalue="1100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction-separatorAfter.instance">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr intvalue="1300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr intvalue="1400" name="position"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="org-joeffice-spreadsheet-csv-CsvDataObject.instance">
+                        <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                        <attr name="iconBase" stringvalue="org/joeffice/spreadsheet/spreadsheet-16.png"/>
+                        <attr intvalue="150" name="position"/>
+                        <attr
+                            bundlevalue="org.joeffice.spreadsheet.csv.Bundle#LBL_Csv_LOADER" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.loaders.DataLoaderPool.factory" name="instanceCreate"/>
+                        <attr name="dataObjectClass" stringvalue="org.joeffice.spreadsheet.csv.CsvDataObject"/>
+                        <attr name="mimeType" stringvalue="text/csv"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="org-joeffice-spreadsheet-XlsDataObject-Extension.xml">
+                <!--org.joeffice.spreadsheet.XlsDataObject-->
+                <attr
+                    methodvalue="org.openide.filesystems.MIMEResolver.create" name="instanceCreate"/>
+                <attr name="instanceClass" stringvalue="org.openide.filesystems.MIMEResolver"/>
+                <attr name="mimeType" stringvalue="application/vnd.ms-excel"/>
+                <attr name="ext.0" stringvalue="xls"/>
+                <attr intvalue="130" name="position"/>
+                <attr
+                    bundlevalue="org.joeffice.spreadsheet.Bundle#LBL_Xls_LOADER" name="fileChooser.0"/>
+                <attr
+                    bundlevalue="org.joeffice.spreadsheet.Bundle#LBL_Xls_LOADER" name="displayName"/>
+            </file>
+            <file name="org-joeffice-spreadsheet-XlsxDataObject-Extension.xml">
+                <!--org.joeffice.spreadsheet.XlsxDataObject-->
+                <attr
+                    methodvalue="org.openide.filesystems.MIMEResolver.create" name="instanceCreate"/>
+                <attr name="instanceClass" stringvalue="org.openide.filesystems.MIMEResolver"/>
+                <attr name="mimeType" stringvalue="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <attr name="ext.0" stringvalue="xlsx"/>
+                <attr intvalue="120" name="position"/>
+                <attr
+                    bundlevalue="org.joeffice.spreadsheet.Bundle#LBL_Xlsx_LOADER" name="fileChooser.0"/>
+                <attr
+                    bundlevalue="org.joeffice.spreadsheet.Bundle#LBL_Xlsx_LOADER" name="displayName"/>
+            </file>
+            <file name="org-joeffice-spreadsheet-csv-CsvDataObject-Extension.xml">
+                <!--org.joeffice.spreadsheet.csv.CsvDataObject-->
+                <attr
+                    methodvalue="org.openide.filesystems.MIMEResolver.create" name="instanceCreate"/>
+                <attr name="instanceClass" stringvalue="org.openide.filesystems.MIMEResolver"/>
+                <attr name="mimeType" stringvalue="text/csv"/>
+                <attr name="ext.0" stringvalue="csv"/>
+                <attr name="ext.1" stringvalue="CSV"/>
+                <attr intvalue="150" name="position"/>
+                <attr
+                    bundlevalue="org.joeffice.spreadsheet.csv.Bundle#LBL_Csv_LOADER" name="fileChooser.0"/>
+                <attr
+                    bundlevalue="org.joeffice.spreadsheet.csv.Bundle#LBL_Csv_LOADER" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="SpreadsheetTopComponent.settings">
+                <!--org.joeffice.spreadsheet.SpreadsheetTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.joeffice.spreadsheet.SpreadsheetTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="SpreadsheetTopComponent.wstcref">
+                    <!--org.joeffice.spreadsheet.SpreadsheetTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="SpreadsheetTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Office">
+            <file name="CsvTemplate.csv" url="nbresloc:/org/joeffice/spreadsheet/csv/CsvTemplate.csv">
+                <!--org.joeffice.spreadsheet.csv-->
+                <attr boolvalue="true" name="template"/>
+                <attr intvalue="240" name="position"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+            <file name="XlsxTemplate.xlsx" url="nbresloc:/org/joeffice/spreadsheet/XlsxTemplate.xlsx">
+                <!--org.joeffice.spreadsheet-->
+                <attr boolvalue="true" name="template"/>
+                <attr intvalue="200" name="position"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+            <file name="XlsTemplate.xls" url="nbresloc:/org/joeffice/spreadsheet/XlsTemplate.xls">
+                <!--org.joeffice.spreadsheet-->
+                <attr boolvalue="true" name="template"/>
+                <attr intvalue="220" name="position"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_joeffice_spreadsheet">
+                <file name="Spreadsheet" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.joeffice.spreadsheet.SpreadsheetTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.joeffice.spreadsheet//Spreadsheet//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="joeffice">
+                    <folder name="spreadsheet">
+                        <file name="SpreadsheetTopComponent">
+                            <!--org.joeffice.spreadsheet.SpreadsheetTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_joeffice_spreadsheet/Spreadsheet.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_joeffice_spreadsheet">
+                <file name="Spreadsheet.instance">
+                    <!--org.joeffice.spreadsheet.SpreadsheetTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.joeffice.spreadsheet.SpreadsheetTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.joeffice.spreadsheet.SpreadsheetTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.joeffice.poi">
+    <module_version install_time="1578061457962" last="true" origin="installer" specification_version="1.0">
+        <file crc="1705634496" name="config/Modules/org-joeffice-poi.xml"/>
+        <file crc="1991922540" name="modules/ext/commons-codec-1.5.jar"/>
+        <file crc="3997199286" name="modules/ext/commons-logging-1.1.jar"/>
+        <file crc="2050839146" name="modules/ext/dom4j-1.6.1.jar"/>
+        <file crc="831832736" name="modules/ext/log4j-1.2.13.jar"/>
+        <file crc="3061635137" name="modules/ext/ooxml-schemas-1.1.jar"/>
+        <file crc="1292573210" name="modules/ext/poi-3.9-20121203.jar"/>
+        <file crc="699763645" name="modules/ext/poi-ooxml-3.9-20121203.jar"/>
+        <file crc="718358633" name="modules/ext/stax-api-1.0.1.jar"/>
+        <file crc="3116060521" name="modules/ext/xmlbeans-2.3.0.jar"/>
+        <file crc="1646188487" name="modules/org-joeffice-poi.jar"/>
+    </module_version>
+</module>

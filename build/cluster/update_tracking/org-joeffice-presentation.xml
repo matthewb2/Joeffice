@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.joeffice.presentation">
+    <module_version install_time="1578061461745" last="true" origin="installer" specification_version="1.0">
+        <file crc="1800873327" name="config/Modules/org-joeffice-presentation.xml"/>
+        <file crc="2503389503" name="modules/org-joeffice-presentation.jar"/>
+    </module_version>
+</module>
